@@ -1,0 +1,64 @@
+#include<stdio.h>
+void main()
+{
+    int n,a,b,c,d,pay;
+    printf("WELCOME TO KOLHAPUR CENTRAL BUS STAND");
+    printf("\n_____________________________________");
+    printf("\nLong rute buses are as follows : \n1. Mumbai \n2. Pune \n3. Panaji \n4. Nashik ");
+    printf("\nPlease enter your choice :" , n);
+    scanf("%d",&n);
+    switch(n){
+    case 1 :
+        printf("Your ticket is for Mumbai");
+        printf("\nTicket price for 1 person is Rs. 800");
+        printf("\nEnter the number of passenger/s :", a);
+        scanf("%d",&a);
+        pay= 800 * a;
+        printf("\nYour payment amount :%d",pay);
+        printf("\nThank You!\n");
+        printf("\n");
+        main();
+        break;
+    case 2 :
+        printf("Your ticket is for Pune");
+        printf("\nTicket price for 1 person is Rs. 750");
+        printf("\nEnter the number of passenger/s :", b);
+        scanf("%d",&b);
+        pay= 750 * b;
+        printf("\nYour payment amount :%d",pay);
+        printf("\nThank You!\n");
+        printf("\n");
+        main();
+        break;
+    case 3 :
+        printf("Your ticket is for Panaji");
+        printf("\nTicket price for 1 person is Rs. 900");
+        printf("\nEnter the number of passenger/s :", c);
+        scanf("%d",&c);
+        pay= 900 * c;
+        printf("\nYour payment amount :%d",pay);
+        printf("\nThank You!\n");
+        printf("\n");
+        main();
+        break;
+
+    case 4:
+        printf("Your ticket is for Nashik");
+        printf("\nTicket price for 1 person is Rs. 800");
+        printf("\nEnter the number of passenger/s :", d);
+        scanf("%d",&d);
+        pay= 800 * d;
+        printf("\nYour payment amount :%d",pay);
+        printf("\nThank You!\n");
+        printf("\n");
+        main();
+        break;
+
+    default:
+        printf("Enter the correct option!!");
+        printf("\n");
+        main();
+    }
+    printf("\nThank You!");
+
+}
